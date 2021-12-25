@@ -1,0 +1,87 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://previews.123rf.com/images/ladavie/ladavie1711/ladavie171100030/89956413-winter-christmas-snow-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* TOP TITLE RELATED CSS */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container > h1 {
+    /* font-size: 18px; */
+    background: -webkit-linear-gradient(rgb(255, 229, 229), rgb(255, 137, 137));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* SAPIN RELATED CSS*/
+#sapin{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background-color: green;
+     color: rgb(255, 217, 0);
+}
+
+.green{
+    background-color: green;
+    color:rgba(248, 12, 12, 0.925);
+}
+
+.lightblue{
+    background-color: green;
+    color:aliceblue
+}
+
+#wishing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#wishing > h3{
+ 
+        font-size: 18px;
+        background: -webkit-linear-gradient(rgb(255, 229, 229), rgb(230, 15, 15));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+
+
+/* custom class for js stuff */
+
+.hide{
+    display:none;
+}
+
+.bigstar{
+    font-size: 70px;
+    background: transparent;
+    color: rgb(229, 255, 0);
+}
+
+#starimage {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+}
