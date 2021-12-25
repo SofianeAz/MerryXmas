@@ -5,9 +5,13 @@
 }
 
 body{
+    height: 100%;
+    width: 100vw;
     background-image: url('https://previews.123rf.com/images/ladavie/ladavie1711/ladavie171100030/89956413-winter-christmas-snow-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
 }
 
 /* TOP TITLE RELATED CSS */
